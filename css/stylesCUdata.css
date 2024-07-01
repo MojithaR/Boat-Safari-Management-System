@@ -1,0 +1,54 @@
+
+body
+{
+    background-image: url(../img/bgimage.jpg);
+	background-size: 1600px 1200px;
+}
+.area
+{
+    width: 500px;
+    height: 420px;
+    border: groove;
+    font-family: Arial;
+    background-color: beige;
+}
+
+.area h1
+{
+    font-family: Calibri;
+}
+.messagearea
+{
+    width: 50%;
+    text-align: left;
+}
+
+.infoarea
+{
+    font-size: 25px;
+}
+
+.updatebtn
+{
+    padding:5px 10px 5px 10px;
+    background-color:cornflowerblue;
+}
+
+.deletebtn
+{
+    color: white;
+    padding:5px 10px 5px 10px;
+    background-color:rgb(182, 70, 59);
+}
+
+.homebtn
+{
+    
+    padding:5px 10px 5px 10px;
+    background-color:rgb(66, 176, 58);
+}
+a 
+{
+    text-decoration: none;
+    color: white; 
+}

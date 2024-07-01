@@ -1,0 +1,258 @@
+body
+{
+	background-image: url(../img/bgimage.jpg);
+	background-size: 1600px 1200px;
+}
+
+/* navigation styles */
+.container
+{
+	margin: 0px 0px 10px 0px;
+	padding:10px 10px 90px 10px;
+	width: 80%;
+}
+
+.nav-container
+{
+	margin: 0px -10px 20px -20px;
+	background-color: forestgreen;
+	display: flex;
+	/* border: groove; */
+	justify-content: space-between;
+	align-items: flex-start;
+	position: absolute;
+	width: 100%;
+
+}
+
+.navlist-1
+{
+	display: flex;
+	list-style: none;
+	padding-right: 10px;
+}
+
+.navlist-2
+{
+	display: flex;
+	list-style: none;
+	padding-right: 60px;
+}
+
+.navlist-1 a
+{
+	margin: 0px 16px 0px 16px;
+	text-decoration: none;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 24px;
+	font-weight: 500;
+	color: white;
+}
+
+.navlist-1 a:hover
+{
+	color: greenyellow;
+}
+
+.navlist-2 a
+{
+	margin: 0px 16px 0px 16px;
+	text-decoration: none;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 24px;
+	font-weight: 500;
+	color: black;
+}
+
+.navlist-2 a:hover
+{
+	color: whitesmoke;
+}
+/* end of navigation styles */
+
+.con1
+{
+	display: flex;
+	align-content: center;
+	margin-left: 130px;
+}
+
+.sub1
+{
+/*	margin: 20px 80px 20px 60px;*/
+	text-align: center;
+	font-size: 15px;
+/*	border: groove;*/
+	padding: 20px 0px;
+	width: 30%;
+}
+
+.paragraph
+{
+	background-color: honeydew;
+	margin: 5px 140px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+h1
+{
+	font-size: 40px;
+	text-align: center;
+}
+
+h2
+{
+	font-family: calibri;
+}
+
+p
+{
+	font-size: 25px;
+	text-align: center;
+	margin: 0px 10px;
+	
+}
+
+.fullcon
+{
+/*	border: groove;*/
+	display: flex;
+	margin: 30px 180px;
+	height: 440px;
+}
+
+/*.subcon
+{
+	border: groove;
+	margin: 30px 50px;
+}*/
+
+.contentleft
+{
+	border: groove;
+	width: 65%;
+	background-color: whitesmoke;
+}
+
+.contentright
+{
+/*	border: groove;*/
+	width: 35%;
+	background-color: black;
+}
+
+.topic
+{
+	margin: 10px 50px 20px 30px;
+	padding: 0px 30px;
+}
+
+.formin
+{
+	display: flex;
+	margin: 10px 50px 20px 30px;
+	padding: 10px 30px;
+/*	margin-bottom: 20px;*/
+}
+
+
+.textfeelds
+{
+	margin-right: 70px;
+	font-family: calibri;
+
+}
+
+.text1
+{
+	width: 280px;
+	border: none;
+	border-bottom: 2px solid black;
+	outline: none;
+	padding-bottom: 5px;
+}
+
+textarea
+{
+	width: 600px;
+	border: none;
+	border-bottom: 2px solid black;
+	font-family: calibri;
+	outline: none;
+	padding-bottom: 5px;
+
+}
+
+.submit1
+{
+	background-color: black;
+	color: white;
+	border-radius: 15px;
+	padding: 10px 15px;
+}
+
+.imagebox
+{
+	margin: 25px 20px 20px 44px;
+}
+
+/*footer designes*/
+
+.footer
+{
+	margin:0px;
+	background-color: forestgreen;
+	border: 1px solid forestgreen;
+}
+
+.footer-1
+{
+	padding: 64px 0px 64px 0px;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	/*border: 1px solid black;*/
+}
+
+.footer-1 h2
+{
+	font-family: 'Playfair Display', serif;
+	font-size: 32px;
+	color: white;
+}
+
+.footer-1 ul 
+{
+	list-style: none;
+}
+
+.footer-1 ul li a
+{
+	display: block;
+	text-decoration: none;
+	margin: 0px 0px 16px 0px;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: white;
+
+}
+
+.footer-1 form h4,h5
+{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: white;
+}
+
+.input-1
+{
+	margin: 0px;
+	padding:8px;
+	width: 100%;
+}
+
+.copyrights
+{
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+	color:black;
+}

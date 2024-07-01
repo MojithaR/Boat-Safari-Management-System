@@ -1,0 +1,98 @@
+.user-list{
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 10px;
+}
+
+table{
+
+    border-collapse: collapse;
+    margin: 25px auto;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    min-width: 500px;
+    border-radius: 7px 7px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    box-sizing: border-box;
+    
+    
+}
+
+
+table th{
+    background-color: #7d14e6;
+    color: aliceblue;
+    font-size: 18px;
+    text-align: left;
+    padding: 15px 20px;
+   
+}
+
+
+table td{
+    padding: 15px 17px;
+    margin: 5px;
+}
+
+table .colspan{
+    text-align: center;
+}
+
+table tr{
+    border-bottom: 1px solid #dddddd;
+}
+
+table tr:nth-of-type(odd){
+    background-color: #f3f3f3;
+}
+
+button a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+    color: aliceblue;
+}
+
+.update-btn{
+    
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 5px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #009879;
+    color: white;
+}
+
+.delete-btn{
+    
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 5px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #e6143e;
+    color: white;
+}
+
+.go-to-reservation{
+   
+    display: block;
+    display: block;
+    margin-left: 72%;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #40aac2;
+    border-radius: 5px;
+
+    
+}
+

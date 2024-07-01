@@ -1,0 +1,223 @@
+
+
+a{text-decoration: none;}
+
+.clear {overflow: auto;}
+body{
+    background-image: url(../img/background3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.head {
+	background-color:green;
+	
+	
+}
+
+.head1{
+	background-color:green;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	padding:25px;
+}
+
+.fir ul{
+	padding : 0;
+	list-style: none;
+	margin: 0;
+	
+}
+
+.fir ul li {
+	display: inline;
+	margin-right: 20px;
+}
+
+.fir a{
+	font-size: 25px;
+	color: white;
+}
+
+.fir a:hover{
+    color: yellow;
+}
+ 
+.seC ul{
+	padding: 0;
+	list-style: none;
+	margin: 0;
+}
+
+.seC ul li {
+	display: inline;
+	margin-right:20px;
+}
+
+.seC a {
+	font-size:25px;
+	color:white;
+}
+
+.seC a:hover{
+    color: yellow;
+}
+
+img {
+    margin-left: 25px;
+    margin-right: 10px;
+    width: 1475px;
+    height: 700px;
+}
+
+/*.sign nav ul{
+    background: green;
+    float: right;
+    width: 787px;
+    
+}
+
+.sign nav ul{
+    padding: 24px;
+    list-style: none;
+}
+
+.sign nav ul li{
+    padding: 0 20px;
+    display: inline-block;
+    
+    
+}
+
+.sign nav ul li a {
+    font-size: 24px;
+    color: white;
+    float: right;
+    
+}
+
+.sign nav ul li a:hover{
+    color:yellow;
+}
+
+.sign {
+    text-align: right;
+}*/
+
+.header {
+    text-align: center;
+    font-size: 40px;
+    background:rgb(161, 241, 200);
+    font-weight: bold;
+}
+
+.des {
+    font-size: 17px;
+    margin: 20px;
+    font-family:cursive;
+    background: rgb(161, 241, 200);
+}
+ 
+
+.des {
+    float: left;
+}
+
+.footer{
+	margin:0;
+	/*padding: 4em 0 4em 0;*/
+	background-color: forestgreen;
+	border: 1px solid forestgreen;
+}
+
+.footer-1{
+	padding: 4em 0 4em 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	/*border: 1px solid black;*/
+}
+
+.footer-1 h2{
+	font-family: 'Playfair Display', serif;
+	font-size: 2.0rem;
+	color: #fff;
+}
+
+.footer-1 ul {
+	list-style: none;
+}
+
+.footer-1 ul li a{
+	display: block;
+	text-decoration: none;
+	margin: 0 0 1em 0;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #fff;
+
+}
+
+.footer-1 form h4,h5{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #fff;
+}
+
+.input-1{
+	margin: 0;
+	padding:0.5em;
+	width: 100%;
+}
+
+.copyrights{
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+	color:white;
+}
+
+.feed {
+    background: rgb(161, 241, 200);
+    font-size: 28px;
+    text-align: center;
+    font-style: italic;
+}
+
+.toform {
+    border: 2px solid black;
+    border-radius: 6px;
+    width: 1000px;
+    height: 450px;
+    margin-left: 250px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-image: url(../img/boat5.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+
+.forms{
+    padding: 10px;
+}
+
+.pform {
+    font-size: 18px;
+    background-color: rgb(189, 239, 155);
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.view
+{
+    background-color:rgb(189, 239, 155);
+    font-size: 25px;
+    text-align: center;
+    font-style: italic;
+    align-items: center;
+    display: flex;
+}
+

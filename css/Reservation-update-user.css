@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(135deg , #71b7e6 , #9b59b6);
+}
+form{
+    display: block;
+    width: 500px;
+    margin: 20px auto;
+    font-size: 25px;
+    padding: 10px;
+   
+}
+
+form input{
+    width: 100%;
+    padding: 10px;
+}
+
+button{
+    margin-top: 10px;
+    padding: 20px;
+    color: black;
+
+}
+
+button a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.sumbit-btn{
+    margin: 10px auto;
+    background-color: #e6143e;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+}
+
+.back-to-userlist{
+    width: 100%;
+    padding: 10px;
+    background-color: #40aac2;
+    cursor: pointer;
+    
+}
+
+.back-to-userlist a{
+    font-size: 18px;
+    color: white;
+
+}
+

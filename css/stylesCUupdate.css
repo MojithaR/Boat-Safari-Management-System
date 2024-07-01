@@ -1,0 +1,48 @@
+body
+{
+    background-image: url(../img/bgimage.jpg);
+	background-size: 1600px 1200px;
+}
+
+.upform
+{
+    border: groove;
+    background-color: rgb(139, 193, 193);
+    width: 500px;
+    height: 450px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+input[type="text"] 
+{
+    width: 300px; 
+    height: 30px; 
+}
+
+textarea[name="message"] 
+{
+    width: 400px; 
+    height: 100px; 
+}
+  
+.updatebttn
+{
+    text-decoration: none;
+    color: white; 
+    padding:5px 10px 5px 10px;
+    background-color:rgb(68, 105, 173);
+}
+
+.homebtn
+{
+    padding:5px 10px 5px 10px;
+    background-color:rgb(66, 176, 58);
+}
+
+a 
+{
+    text-decoration: none;
+    color: white; 
+}
